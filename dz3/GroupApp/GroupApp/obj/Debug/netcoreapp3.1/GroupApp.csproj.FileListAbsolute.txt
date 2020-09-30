@@ -1,0 +1,13 @@
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.exe
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.deps.json
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.runtimeconfig.json
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.runtimeconfig.dev.json
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.dll
+S:\github\labs-oop\dz3\GroupApp\GroupApp\bin\Debug\netcoreapp3.1\GroupApp.pdb
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.csprojAssemblyReference.cache
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.AssemblyInfoInputs.cache
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.AssemblyInfo.cs
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.dll
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.pdb
+S:\github\labs-oop\dz3\GroupApp\GroupApp\obj\Debug\netcoreapp3.1\GroupApp.genruntimeconfig.cache

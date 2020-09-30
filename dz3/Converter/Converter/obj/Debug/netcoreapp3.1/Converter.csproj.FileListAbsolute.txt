@@ -1,0 +1,13 @@
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.exe
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.deps.json
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.runtimeconfig.json
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.runtimeconfig.dev.json
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.dll
+S:\github\labs-oop\dz3\Converter\Converter\bin\Debug\netcoreapp3.1\Converter.pdb
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.csprojAssemblyReference.cache
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.AssemblyInfoInputs.cache
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.AssemblyInfo.cs
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.dll
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.pdb
+S:\github\labs-oop\dz3\Converter\Converter\obj\Debug\netcoreapp3.1\Converter.genruntimeconfig.cache
