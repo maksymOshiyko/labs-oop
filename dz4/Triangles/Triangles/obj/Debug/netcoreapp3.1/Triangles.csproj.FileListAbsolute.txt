@@ -1,0 +1,15 @@
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.exe
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.deps.json
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.runtimeconfig.json
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.runtimeconfig.dev.json
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.dll
+S:\github\labs-oop\dz4\Triangles\Triangles\bin\Debug\netcoreapp3.1\Triangles.pdb
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.csprojAssemblyReference.cache
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.Form1.resources
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.csproj.GenerateResource.cache
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.AssemblyInfoInputs.cache
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.AssemblyInfo.cs
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.dll
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.pdb
+S:\github\labs-oop\dz4\Triangles\Triangles\obj\Debug\netcoreapp3.1\Triangles.genruntimeconfig.cache

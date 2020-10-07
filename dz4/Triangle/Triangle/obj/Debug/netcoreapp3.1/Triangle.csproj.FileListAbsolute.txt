@@ -1,0 +1,15 @@
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.exe
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.deps.json
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.runtimeconfig.json
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.runtimeconfig.dev.json
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.dll
+S:\github\labs-oop\dz4\Triangle\Triangle\bin\Debug\netcoreapp3.1\Triangle.pdb
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.csprojAssemblyReference.cache
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.Form1.resources
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.csproj.GenerateResource.cache
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.AssemblyInfoInputs.cache
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.AssemblyInfo.cs
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.dll
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.pdb
+S:\github\labs-oop\dz4\Triangle\Triangle\obj\Debug\netcoreapp3.1\Triangle.genruntimeconfig.cache

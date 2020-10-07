@@ -1,0 +1,15 @@
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.AssemblyInfoInputs.cache
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.AssemblyInfo.cs
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.exe
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.deps.json
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.runtimeconfig.json
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.runtimeconfig.dev.json
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.dll
+S:\github\labs-oop\dz4\Figure\Figure\bin\Debug\netcoreapp3.1\Figure.pdb
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.Form1.resources
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.csproj.GenerateResource.cache
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.dll
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.pdb
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.genruntimeconfig.cache
+S:\github\labs-oop\dz4\Figure\Figure\obj\Debug\netcoreapp3.1\Figure.csprojAssemblyReference.cache
