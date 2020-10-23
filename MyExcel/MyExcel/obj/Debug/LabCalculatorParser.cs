@@ -31,8 +31,8 @@ using DFA = Antlr4.Runtime.Dfa.DFA;
 [System.CLSCompliant(false)]
 public partial class LabCalculatorParser : Parser {
 	public const int
-		NUMBER=1, IDENTIFIER=2, INT=3, EXPONENT=4, SUBTRACT=5, ADD=6, MULTIPLY=7, 
-		DIVIDE=8, DEC=9, INC=10, MMIN=11, MMAX=12, DESP=13, LPAREN=14, RPAREN=15, 
+		NUMBER=1, IDENTIFIER=2, INT=3, EXPONENT=4, MULTIPLY=5, DIVIDE=6, SUBTRACT=7, 
+		ADD=8, DEC=9, INC=10, MMIN=11, MMAX=12, DESP=13, LPAREN=14, RPAREN=15, 
 		WS=16;
 	public const int
 		RULE_compileUnit = 0, RULE_expression = 1;
@@ -41,12 +41,13 @@ public partial class LabCalculatorParser : Parser {
 	};
 
 	private static readonly string[] _LiteralNames = {
-		null, null, null, null, "'^'", "'-'", "'+'", "'*'", "'/'", "'DEC'", "'INC'", 
+		null, null, null, null, "'^'", "'*'", "'/'", "'-'", "'+'", "'DEC'", "'INC'", 
 		"'MMIN'", "'MMAX'", "','", "'('", "')'"
 	};
 	private static readonly string[] _SymbolicNames = {
-		null, "NUMBER", "IDENTIFIER", "INT", "EXPONENT", "SUBTRACT", "ADD", "MULTIPLY", 
-		"DIVIDE", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", "WS"
+		null, "NUMBER", "IDENTIFIER", "INT", "EXPONENT", "MULTIPLY", "DIVIDE", 
+		"SUBTRACT", "ADD", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", 
+		"WS"
 	};
 	public static readonly IVocabulary DefaultVocabulary = new Vocabulary(_LiteralNames, _SymbolicNames);
 
@@ -478,15 +479,15 @@ public partial class LabCalculatorParser : Parser {
 
 					case 2:
 						{
-						_localctx = new AdditiveExprContext(new ExpressionContext(_parentctx, _parentState));
+						_localctx = new MultiplicativeExprContext(new ExpressionContext(_parentctx, _parentState));
 						PushNewRecursionContext(_localctx, _startState, RULE_expression);
 						State = 36;
 						if (!(Precpred(_ctx, 6))) throw new FailedPredicateException(this, "Precpred(_ctx, 6)");
 						State = 37;
-						((AdditiveExprContext)_localctx).operatorToken = _input.Lt(1);
+						((MultiplicativeExprContext)_localctx).operatorToken = _input.Lt(1);
 						_la = _input.La(1);
-						if ( !(_la==SUBTRACT || _la==ADD) ) {
-							((AdditiveExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
+						if ( !(_la==MULTIPLY || _la==DIVIDE) ) {
+							((MultiplicativeExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 						} else {
 							if (_input.La(1) == TokenConstants.Eof) {
 								matchedEOF = true;
@@ -501,15 +502,15 @@ public partial class LabCalculatorParser : Parser {
 
 					case 3:
 						{
-						_localctx = new MultiplicativeExprContext(new ExpressionContext(_parentctx, _parentState));
+						_localctx = new AdditiveExprContext(new ExpressionContext(_parentctx, _parentState));
 						PushNewRecursionContext(_localctx, _startState, RULE_expression);
 						State = 39;
 						if (!(Precpred(_ctx, 5))) throw new FailedPredicateException(this, "Precpred(_ctx, 5)");
 						State = 40;
-						((MultiplicativeExprContext)_localctx).operatorToken = _input.Lt(1);
+						((AdditiveExprContext)_localctx).operatorToken = _input.Lt(1);
 						_la = _input.La(1);
-						if ( !(_la==MULTIPLY || _la==DIVIDE) ) {
-							((MultiplicativeExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
+						if ( !(_la==SUBTRACT || _la==ADD) ) {
+							((AdditiveExprContext)_localctx).operatorToken = _errHandler.RecoverInline(this);
 						} else {
 							if (_input.La(1) == TokenConstants.Eof) {
 								matchedEOF = true;

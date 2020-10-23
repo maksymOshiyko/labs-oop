@@ -9,8 +9,8 @@ compileUnit : expression EOF;
 expression :
 	LPAREN expression RPAREN #ParenthesizedExpr
 	|expression EXPONENT expression #ExponentialExpr
-	| expression operatorToken=(ADD | SUBTRACT) expression #AdditiveExpr
 	| expression operatorToken=(MULTIPLY | DIVIDE) expression #MultiplicativeExpr
+	| expression operatorToken=(ADD | SUBTRACT) expression #AdditiveExpr
 	| operatorToken=(INC | DEC) LPAREN expression RPAREN #IncDecExpr
 	| operatorToken = (MMIN | MMAX) LPAREN expression (DESP expression)* RPAREN #MminMmaxExpr
 	| NUMBER #NumberExpr
@@ -27,10 +27,10 @@ IDENTIFIER : [a-zA-Z]+[1-9][0-9]+;
 INT : ('0'..'9')+;
 
 EXPONENT : '^';
-SUBTRACT : '-';
-ADD : '+';
 MULTIPLY : '*';
 DIVIDE : '/';
+SUBTRACT : '-';
+ADD : '+';
 DEC : 'DEC';
 INC : 'INC';
 MMIN : 'MMIN';

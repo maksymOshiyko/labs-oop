@@ -29,16 +29,16 @@ using DFA = Antlr4.Runtime.Dfa.DFA;
 [System.CLSCompliant(false)]
 public partial class LabCalculatorLexer : Lexer {
 	public const int
-		NUMBER=1, IDENTIFIER=2, INT=3, EXPONENT=4, SUBTRACT=5, ADD=6, MULTIPLY=7, 
-		DIVIDE=8, DEC=9, INC=10, MMIN=11, MMAX=12, DESP=13, LPAREN=14, RPAREN=15, 
+		NUMBER=1, IDENTIFIER=2, INT=3, EXPONENT=4, MULTIPLY=5, DIVIDE=6, SUBTRACT=7, 
+		ADD=8, DEC=9, INC=10, MMIN=11, MMAX=12, DESP=13, LPAREN=14, RPAREN=15, 
 		WS=16;
 	public static string[] modeNames = {
 		"DEFAULT_MODE"
 	};
 
 	public static readonly string[] ruleNames = {
-		"NUMBER", "IDENTIFIER", "INT", "EXPONENT", "SUBTRACT", "ADD", "MULTIPLY", 
-		"DIVIDE", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", "WS"
+		"NUMBER", "IDENTIFIER", "INT", "EXPONENT", "MULTIPLY", "DIVIDE", "SUBTRACT", 
+		"ADD", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", "WS"
 	};
 
 
@@ -49,12 +49,13 @@ public partial class LabCalculatorLexer : Lexer {
 	}
 
 	private static readonly string[] _LiteralNames = {
-		null, null, null, null, "'^'", "'-'", "'+'", "'*'", "'/'", "'DEC'", "'INC'", 
+		null, null, null, null, "'^'", "'*'", "'/'", "'-'", "'+'", "'DEC'", "'INC'", 
 		"'MMIN'", "'MMAX'", "','", "'('", "')'"
 	};
 	private static readonly string[] _SymbolicNames = {
-		null, "NUMBER", "IDENTIFIER", "INT", "EXPONENT", "SUBTRACT", "ADD", "MULTIPLY", 
-		"DIVIDE", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", "WS"
+		null, "NUMBER", "IDENTIFIER", "INT", "EXPONENT", "MULTIPLY", "DIVIDE", 
+		"SUBTRACT", "ADD", "DEC", "INC", "MMIN", "MMAX", "DESP", "LPAREN", "RPAREN", 
+		"WS"
 	};
 	public static readonly IVocabulary DefaultVocabulary = new Vocabulary(_LiteralNames, _SymbolicNames);
 
@@ -129,9 +130,9 @@ public partial class LabCalculatorLexer : Lexer {
 		"/\t\x3\x2\x2.\x30\t\x4\x2\x2/.\x3\x2\x2\x2\x30\x31\x3\x2\x2\x2\x31/\x3"+
 		"\x2\x2\x2\x31\x32\x3\x2\x2\x2\x32\x6\x3\x2\x2\x2\x33\x35\x4\x32;\x2\x34"+
 		"\x33\x3\x2\x2\x2\x35\x36\x3\x2\x2\x2\x36\x34\x3\x2\x2\x2\x36\x37\x3\x2"+
-		"\x2\x2\x37\b\x3\x2\x2\x2\x38\x39\a`\x2\x2\x39\n\x3\x2\x2\x2:;\a/\x2\x2"+
-		";\f\x3\x2\x2\x2<=\a-\x2\x2=\xE\x3\x2\x2\x2>?\a,\x2\x2?\x10\x3\x2\x2\x2"+
-		"@\x41\a\x31\x2\x2\x41\x12\x3\x2\x2\x2\x42\x43\a\x46\x2\x2\x43\x44\aG\x2"+
+		"\x2\x2\x37\b\x3\x2\x2\x2\x38\x39\a`\x2\x2\x39\n\x3\x2\x2\x2:;\a,\x2\x2"+
+		";\f\x3\x2\x2\x2<=\a\x31\x2\x2=\xE\x3\x2\x2\x2>?\a/\x2\x2?\x10\x3\x2\x2"+
+		"\x2@\x41\a-\x2\x2\x41\x12\x3\x2\x2\x2\x42\x43\a\x46\x2\x2\x43\x44\aG\x2"+
 		"\x2\x44\x45\a\x45\x2\x2\x45\x14\x3\x2\x2\x2\x46G\aK\x2\x2GH\aP\x2\x2H"+
 		"I\a\x45\x2\x2I\x16\x3\x2\x2\x2JK\aO\x2\x2KL\aO\x2\x2LM\aK\x2\x2MN\aP\x2"+
 		"\x2N\x18\x3\x2\x2\x2OP\aO\x2\x2PQ\aO\x2\x2QR\a\x43\x2\x2RS\aZ\x2\x2S\x1A"+
