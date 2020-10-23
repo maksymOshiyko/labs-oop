@@ -1,0 +1,42 @@
+﻿grammar LabCalculator;
+
+/*
+* Parser Rules
+*/
+
+compileUnit : expression EOF;
+
+expression :
+	LPAREN expression RPAREN #ParenthesizedExpr
+	|expression EXPONENT expression #ExponentialExpr
+	| expression operatorToken=(ADD | SUBTRACT) expression #AdditiveExpr
+	| expression operatorToken=(MULTIPLY | DIVIDE) expression #MultiplicativeExpr
+	| operatorToken=(INC | DEC) LPAREN expression RPAREN #IncDecExpr
+	| operatorToken = (MMIN | MMAX) LPAREN expression (DESP expression)* RPAREN #MminMmaxExpr
+	| NUMBER #NumberExpr
+	| IDENTIFIER #IdentifierExpr
+	;
+
+/*
+* Lexer Rules
+*/
+
+NUMBER : INT ('.' INT)?;
+IDENTIFIER : [a-zA-Z]+[1-9][0-9]+;
+
+INT : ('0'..'9')+;
+
+EXPONENT : '^';
+SUBTRACT : '-';
+ADD : '+';
+MULTIPLY : '*';
+DIVIDE : '/';
+DEC : 'DEC';
+INC : 'INC';
+MMIN : 'MMIN';
+MMAX : 'MMAX';
+DESP : ',';
+LPAREN : '(';
+RPAREN : ')';
+
+WS : [ \t\r\n] -> channel(HIDDEN);
