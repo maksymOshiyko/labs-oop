@@ -17,3 +17,4 @@ S:\github\labs-oop\MyExcel\MyExcel\obj\Debug\LabCalculatorVisitor.cs
 S:\github\labs-oop\MyExcel\MyExcel\obj\Debug\LabCalculatorBaseVisitor.cs
 S:\github\labs-oop\MyExcel\MyExcel\obj\Debug\MyExcel.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
 S:\github\labs-oop\MyExcel\MyExcel\obj\Debug\MyExcel.Form1.resources
+S:\github\labs-oop\MyExcel\MyExcel\obj\Debug\MyExcel.csprojAssemblyReference.cache
