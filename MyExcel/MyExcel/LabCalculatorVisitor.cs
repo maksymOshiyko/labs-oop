@@ -155,7 +155,13 @@ namespace MyExcel
             exp = exp.Substring(exp.IndexOf('(') + 1, exp.LastIndexOf(')') - exp.IndexOf('(') - 1);
             var indexesOfDelimiter = FindDelimiterIndexes(exp);
 
-            var parts = new List<string>(); // exp.Substring(exp.IndexOf('(') + 1, exp.Length - exp.IndexOf('(') - 2).Split(',');
+            var parts = new List<string>();
+
+            if (indexesOfDelimiter.Count == 0)
+            {
+                parts.Add(exp);
+                return parts;
+            }
 
             for (int i = 0; i <= indexesOfDelimiter.Count; i++)
             {

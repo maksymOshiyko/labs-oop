@@ -221,6 +221,8 @@ namespace MyExcel
                 "The operations you can use with cells:\n" +
                 "addition - +\n" +
                 "subtruction - -\n" +
+                "division - /\n" +
+                "muptiplication - -\n" +
                 "exponentiation - ^\n" +
                 "find max of n numbers, where n >= 1 - MMAX(x1,x2,...,xn)\n" +
                 "find min of n numbers, where n >= 1 - MMIN(x1,x2,...,xn)\n" +
@@ -287,6 +289,7 @@ namespace MyExcel
                 service.Save();
                 _savesCount++;
                 MessageBox.Show("Your grid was saved.", "Saving completed");
+                _savesCount = 0;
             }
             else
                 return;

@@ -217,7 +217,7 @@
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.mainMenu);
             this.Name = "Form1";
-            this.Text = "MyExcel";
+            this.Text = "MyExcel Ошийко Максим";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
