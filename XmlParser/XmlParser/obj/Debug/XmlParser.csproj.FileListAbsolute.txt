@@ -1,0 +1,10 @@
+E:\github\labs-oop\XmlParser\XmlParser\bin\Debug\XmlParser.exe.config
+E:\github\labs-oop\XmlParser\XmlParser\bin\Debug\XmlParser.exe
+E:\github\labs-oop\XmlParser\XmlParser\bin\Debug\XmlParser.pdb
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.csprojAssemblyReference.cache
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.Form1.resources
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.Properties.Resources.resources
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.csproj.GenerateResource.cache
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.csproj.CoreCompileInputs.cache
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.exe
+E:\github\labs-oop\XmlParser\XmlParser\obj\Debug\XmlParser.pdb

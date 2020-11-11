@@ -1,0 +1,13 @@
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.exe
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.deps.json
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.runtimeconfig.json
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.runtimeconfig.dev.json
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.dll
+S:\github\labs-oop\Patterns\AbstractFactory\bin\Debug\netcoreapp3.1\AbstractFactory.pdb
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.csprojAssemblyReference.cache
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.AssemblyInfoInputs.cache
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.AssemblyInfo.cs
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.dll
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.pdb
+S:\github\labs-oop\Patterns\AbstractFactory\obj\Debug\netcoreapp3.1\AbstractFactory.genruntimeconfig.cache

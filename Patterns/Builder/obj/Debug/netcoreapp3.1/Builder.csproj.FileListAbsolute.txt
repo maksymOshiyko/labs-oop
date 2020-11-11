@@ -1,0 +1,13 @@
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.exe
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.deps.json
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.json
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.dev.json
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.dll
+S:\github\labs-oop\Patterns\Builder\bin\Debug\netcoreapp3.1\Builder.pdb
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.csprojAssemblyReference.cache
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfoInputs.cache
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfo.cs
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.csproj.CoreCompileInputs.cache
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.dll
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
+S:\github\labs-oop\Patterns\Builder\obj\Debug\netcoreapp3.1\Builder.genruntimeconfig.cache
