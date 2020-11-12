@@ -7,7 +7,8 @@ using System.Xml.Serialization;
 
 namespace XmlParser.Models
 {
-    class CD
+    [Serializable]
+    public class CD
     {
         public CD()
         {

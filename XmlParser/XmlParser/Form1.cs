@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 using System.Xml.Xsl;
 using XmlParser.Models;
 
@@ -15,8 +18,8 @@ namespace XmlParser
     public partial class Form1 : Form
     {
         private string _xmlFile;
+        private readonly string _filteredXmlFile = @"E:\github\labs-oop\XmlParser\XmlParser\FilteredCatalog.xml";
         private readonly string _xslFile = @"E:\github\labs-oop\XmlParser\XmlParser\Converter.xslt";
-        private readonly string _htmlFile = @"E:\github\labs-oop\XmlParser\XmlParser\Catalog.html";
         private XmlParserContext _xmlContext;
         private Catalog _fullCatalog;
         private Catalog _filteredCatalog;
@@ -232,11 +235,54 @@ namespace XmlParser
                 return;
             }
 
-            XslCompiledTransform xslt = new XslCompiledTransform();
-            xslt.Load(_xslFile);
-            xslt.Transform(_xmlFile, _htmlFile);
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
 
-            MessageBox.Show("XML file was successfully transformed.", "Success");
+            saveFileDialog.Filter = "HTML File|*.html";
+            saveFileDialog.Title = "HTML";
+            saveFileDialog.RestoreDirectory = true;
+
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string htmlFileName = saveFileDialog.FileName;
+
+                string xmlFile;
+                if(_filteredCatalog == null)
+                {
+                    xmlFile = _xmlFile;
+                }
+                else
+                {
+                    xmlFile = _filteredXmlFile;
+                    // передаем в конструктор тип класса
+                    XDocument xDoc = new XDocument();
+
+                    XElement catalog = new XElement("CATALOG");
+                    foreach(CD cd in _filteredCatalog.CDs)
+                    {
+                        XElement element = new XElement("CD");
+
+                        XElement title = new XElement("TITLE", cd.Title);
+                        XElement artist = new XElement("ARTIST", cd.Artist);
+                        XElement country = new XElement("COUNTRY", cd.Country);
+                        XElement company = new XElement("COMPANY", cd.Company);
+                        XElement price = new XElement("PRICE", cd.Price);
+                        XElement year = new XElement("YEAR", cd.Year);
+
+                        element.Add(title, artist, country, company, price, year);
+                        catalog.Add(element);
+                    }
+
+                    xDoc.Add(catalog);
+                    xDoc.Save(xmlFile);
+                }
+
+                XslCompiledTransform xslt = new XslCompiledTransform();
+                xslt.Load(_xslFile);
+                xslt.Transform(xmlFile, htmlFileName);
+
+                MessageBox.Show("XML file was successfully transformed.", "Success");
+            }
         }
     }
 }

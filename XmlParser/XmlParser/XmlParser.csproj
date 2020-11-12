@@ -87,9 +87,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Catalog.html" />
     <Content Include="Catalog.xml" />
     <Content Include="Converter.xslt" />
+    <Content Include="FilteredCatalog.xml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
