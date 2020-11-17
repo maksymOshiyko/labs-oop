@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.exe.config
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.exe
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.pdb
+C:\Users\user\Desktop\ООР\Solid\Solid2\obj\Debug\Solid2.exe
+C:\Users\user\Desktop\ООР\Solid\Solid2\obj\Debug\Solid2.pdb

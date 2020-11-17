@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.exe.config
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.exe
+C:\Users\user\Desktop\ООР\Solid\Solid2\bin\Debug\Solid2.pdb
+C:\Users\user\Desktop\ООР\Solid\Solid2\obj\Debug\Solid2.exe
+C:\Users\user\Desktop\ООР\Solid\Solid2\obj\Debug\Solid2.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\bin\Debug\Solid2.exe.config
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\bin\Debug\Solid2.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\bin\Debug\Solid2.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\obj\Debug\Solid_2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\obj\Debug\Solid_2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\obj\Debug\Solid2.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid2\obj\Debug\Solid2.pdb

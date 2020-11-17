@@ -1,0 +1,24 @@
+C:\Users\user\Desktop\ООР\Solid\Solid1\bin\Debug\Solid1.exe.config
+C:\Users\user\Desktop\ООР\Solid\Solid1\bin\Debug\Solid1.exe
+C:\Users\user\Desktop\ООР\Solid\Solid1\bin\Debug\Solid1.pdb
+C:\Users\user\Desktop\ООР\Solid\Solid1\obj\Debug\Solid1.exe
+C:\Users\user\Desktop\ООР\Solid\Solid1\obj\Debug\Solid1.pdb
+C:\Users\user\Desktop\ООР\disk\Solid\Solid1\bin\Debug\Solid1.exe.config
+C:\Users\user\Desktop\ООР\disk\Solid\Solid1\obj\Debug\Solid1.exe
+C:\Users\user\Desktop\ООР\disk\Solid\Solid1\obj\Debug\Solid1.pdb
+C:\Users\user\Desktop\ООР\disk\Solid\Solid1\bin\Debug\Solid1.exe
+C:\Users\user\Desktop\ООР\disk\Solid\Solid1\bin\Debug\Solid1.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\bin\Debug\Solid1.exe.config
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\bin\Debug\Solid1.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\bin\Debug\Solid1.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\obj\Debug\Solid_1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\obj\Debug\Solid_1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\obj\Debug\Solid1.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid1\obj\Debug\Solid1.pdb
+E:\github\labs-oop\Solid\Solid1\bin\Debug\Solid1.exe.config
+E:\github\labs-oop\Solid\Solid1\bin\Debug\Solid1.exe
+E:\github\labs-oop\Solid\Solid1\bin\Debug\Solid1.pdb
+E:\github\labs-oop\Solid\Solid1\obj\Debug\Solid_1.csprojAssemblyReference.cache
+E:\github\labs-oop\Solid\Solid1\obj\Debug\Solid_1.csproj.CoreCompileInputs.cache
+E:\github\labs-oop\Solid\Solid1\obj\Debug\Solid1.exe
+E:\github\labs-oop\Solid\Solid1\obj\Debug\Solid1.pdb

@@ -1,0 +1,19 @@
+C:\Users\user\Desktop\ООР\Solid\Solid_3\bin\Debug\Solid_3.exe.config
+C:\Users\user\Desktop\ООР\Solid\Solid_3\bin\Debug\Solid_3.exe
+C:\Users\user\Desktop\ООР\Solid\Solid_3\bin\Debug\Solid_3.pdb
+C:\Users\user\Desktop\ООР\Solid\Solid_3\obj\Debug\Solid_3.exe
+C:\Users\user\Desktop\ООР\Solid\Solid_3\obj\Debug\Solid_3.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\bin\Debug\Solid_3.exe.config
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\bin\Debug\Solid_3.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\bin\Debug\Solid_3.pdb
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\obj\Debug\Solid_3.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\obj\Debug\Solid_3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\obj\Debug\Solid_3.exe
+C:\Users\user\Desktop\2018_2019\ООП\Модуль 1\5\Solid\Solid\Solid_3\obj\Debug\Solid_3.pdb
+E:\github\labs-oop\Solid\Solid_3\bin\Debug\Solid_3.exe.config
+E:\github\labs-oop\Solid\Solid_3\bin\Debug\Solid_3.exe
+E:\github\labs-oop\Solid\Solid_3\bin\Debug\Solid_3.pdb
+E:\github\labs-oop\Solid\Solid_3\obj\Debug\Solid_3.csprojAssemblyReference.cache
+E:\github\labs-oop\Solid\Solid_3\obj\Debug\Solid_3.csproj.CoreCompileInputs.cache
+E:\github\labs-oop\Solid\Solid_3\obj\Debug\Solid_3.exe
+E:\github\labs-oop\Solid\Solid_3\obj\Debug\Solid_3.pdb
